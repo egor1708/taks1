@@ -1,0 +1,18 @@
+// ==== e-accordion content block
+// ==============================
+
+.e-accordion__more {
+	display: none;
+}
+
+.e-accordion__more.e-accordion__more_show_true {
+	display: block;
+}
+
+.e-accordion__short.list__item_indent-t_m {
+	margin-top: 0;
+}
+
+.e-accordion__more {
+	margin-top: var(--space-m);
+}

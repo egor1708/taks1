@@ -1,0 +1,87 @@
+// ==== theme styles
+// ==============================
+
+$breakpoint-mobile: 1024px;
+
+.theme {
+  background: var(--backgroud-default);
+}
+
+.theme_color_project {}
+
+.theme_color_project-default {
+  --backgroud-default: #ffffff;
+  --backgroud-accent: #ffcc00;
+  --backgroud-border: #000000;
+  --text-primary: #000000;
+  --text-secondary: rgba(0, 0, 0, 0.6);
+  --text-additional: rgba(0, 0, 0, 0.3);
+  --text-link: #0077ff;
+}
+
+.theme_color_project-brand {
+  --backgroud-default: #0077ff;
+  --backgroud-accent: #ffffff;
+  --backgroud-border: #ffffff;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-additional: rgba(255, 255, 255, 0.3);
+  --text-link: #ffffff;
+}
+
+.theme_color_project-inverse {
+  --backgroud-default: #000000;
+  --backgroud-accent: #ffffff;
+  --backgroud-border: #ffffff;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-additional: rgba(255, 255, 255, 0.3);
+  --text-link: #0077ff;
+}
+
+.theme_color_project-warning {
+  --backgroud-default: #ff3333;
+  --backgroud-accent: #ffffff;
+  --backgroud-border: #ff3333;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-additional: rgba(255, 255, 255, 0.3);
+  --text-link: #ffffff;
+}
+
+.theme_size_default {
+  --text-size-s: 8px;
+  --text-size-m: 10px;
+  --text-size-l: 11px;
+  --text-size-xl: 13px;
+  --text-size-xxl: 16px;
+  --line-height-s: 21px;
+  --line-height-m: 25px;
+  --line-height-l: 28px;
+  --line-height-xl: 34px;
+  --line-height-xxl: 38px;
+}
+
+.theme_space_default {
+  --space-xxxs: 3px;
+  --space-xxs: 6px;
+  --space-xs: 9px;
+  --space-s: 15px;
+  --space-m: 18px;
+  --space-l: 24px;
+  --space-xl: 27px;
+  --space-xxl: 36px;
+  --space-xxxl: 45px;
+  --space-xxxxl: 51px;
+  --space-xxxxxl: 72px;
+}
+
+.theme_gap_small {
+  --gap: var(--space-xl);
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .theme_gap_small {
+    --gap: var(--space-s);
+  }
+}

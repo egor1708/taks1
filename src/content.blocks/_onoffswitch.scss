@@ -1,0 +1,27 @@
+// ==== onoffswitch content block
+// ==============================
+
+.onoffswitch {
+    width: 97px;
+    height: 32px;
+    border: 2px solid var(--backgroud-border);
+    position: relative;
+}
+
+.onoffswitch.onoffswitch_checked .onoffswitch__button {
+    right: 2px;
+    left: auto;
+}
+
+.onoffswitch__button {
+    height: 24px;
+    width: 24px;
+    background-color: var(--backgroud-border);
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+
+.onoffswitch__button:hover {
+    cursor: pointer;
+}

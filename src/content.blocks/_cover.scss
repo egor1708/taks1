@@ -1,0 +1,17 @@
+// ==== cover content block
+// ==============================
+
+.cover {
+    min-height: 472px;
+    flex-direction: column;
+    display: flex;
+}
+
+.cover__info .image {
+    height: 180px;
+    background-position: center;
+}
+
+.cover__preview {
+    margin-bottom: var(--space-l);
+}

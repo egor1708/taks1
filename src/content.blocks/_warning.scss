@@ -1,0 +1,17 @@
+// ==== warning content block
+// ==============================
+
+.warning {
+    height: 100%;
+    min-height: 335px;
+}
+
+@media (min-width: $breakpoint-mobile) {
+    .warning__content {
+        max-width: 260px;
+    }
+}
+
+.warning__content .placeholder {
+    margin: var(--space-m) auto var(--space-m) auto;
+}

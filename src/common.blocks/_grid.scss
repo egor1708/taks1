@@ -1,0 +1,54 @@
+// ==== grid common block
+// ==============================
+
+.grid {
+	display: grid;
+}
+
+@media (min-width: $breakpoint-mobile) {
+	.grid_m-columns_12 {
+		grid-template-columns: repeat(12, 1fr);
+	}
+	.grid_m-columns_10 {
+		grid-template-columns: repeat(10, 1fr);
+	}
+	.grid__fraction_m-col_2 {
+		grid-column: span 2 / span 2;
+	}
+	.grid__fraction_m-col_3 {
+		grid-column: span 3 / span 3;
+	}
+	.grid__fraction_m-col_4 {
+		grid-column: span 4 / span 4;
+	}
+	.grid__fraction_m-col_5 {
+		grid-column: span 5 / span 5;
+	}
+	.grid__fraction_m-col_8 {
+		grid-column: span 8 / span 8;
+	}
+}
+
+.grid_col-gap_two-thirds {
+	grid-column-gap: calc((var(--gap) / 3) * 2);
+}
+
+.grid_col-gap_full {
+	grid-column-gap: var(--gap);
+}
+
+.grid_col-gap_half {
+	grid-column-gap: calc(var(--gap) / 2);
+}
+
+.grid_row-gap_full {
+	grid-row-gap: var(--gap);
+}
+
+.grid_row-gap_half {
+	grid-row-gap: calc(var(--gap) / 2);
+}
+
+.grid__fraction {
+	grid-template-columns: 50% 50%;
+}

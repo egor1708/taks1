@@ -1,0 +1,37 @@
+// ==== history content block
+// ==============================
+
+.history {
+    border: 3px solid var(--backgroud-border);
+}
+
+.history__show {
+    display: flex;
+}
+
+.history__details {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+
+.history__transaction {
+    border-bottom: 3px solid var(--backgroud-border);
+    ;
+}
+
+.history__transaction:last-child {
+    border-bottom: none;
+}
+
+.history__description.list__item_indent-b_m {
+    margin-bottom: var(--space-m);
+}
+
+.history__actions {
+    display: flex;
+}
+
+.history__actions.list__item_indent-b_l {
+    margin-bottom: 0;
+}

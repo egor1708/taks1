@@ -1,0 +1,66 @@
+// ==== informer common block
+// ==============================
+
+.informer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.informer_border_all {
+	border: 3px solid var(--backgroud-border);
+}
+
+.informer_view_default {
+	background-color: var(--backgroud-default);
+}
+
+.informer__content {
+	display: flex;
+	flex-direction: column;
+}
+
+.informer__content_distribute_default {
+	justify-content: flex-start;
+}
+
+.informer__content_distribute_between {
+	justify-content: space-between;
+}
+
+.informer__content_distribute_center {
+	justify-content: center;
+}
+
+.informer__content_space-a_xl {
+	padding: var(--space-xl) 0;
+}
+
+.informer__content_space-a_xxl {
+	padding: var(--space-xxl) 0;
+}
+
+.informer__action {
+	margin-top: auto;
+	display: flex;
+}
+
+.informer__action_distribute_default {
+	justify-content: flex-start;
+}
+
+.informer__action_distribute_between {
+	justify-content: space-between;
+}
+
+.informer__action_distribute_center {
+	justify-content: center;
+}
+
+.informer__action_space-a_xl {
+	padding: var(--space-xl) 0;
+}
+
+.informer__action_space-a_xxl {
+	padding: var(--space-xxl) 0;
+}

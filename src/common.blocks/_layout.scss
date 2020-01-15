@@ -1,0 +1,50 @@
+// ==== layout common block
+// ==============================
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+$breakpoint-mobile: 1024px;
+
+.layout {}
+
+.layout__container {}
+
+.layout__container_align_center {
+	margin: 0 auto;
+}
+
+.layout__container_size_s {
+	width: 920px;
+}
+
+.layout__container_size_m {
+	width: 1280px;
+}
+
+@media (max-width: $breakpoint-mobile) {
+	.layout__container_size_s {
+		width: 100%;
+	}
+	.layout__container_size_m {
+		width: 100%;
+	}
+}
+
+.layout__container_space-v_xxxxl {
+	padding: var(--space-xxxxl) 0;
+}
+
+.layout__container_space-v_xxxxxl {
+	padding: var(--space-xxxxxl) 0;
+}
+
+.layout__container_indent-b_xxl {
+	margin-bottom: var(--space-xxl);
+}
+
+.layout__container_indent-b_xxxxl {
+	margin-bottom: var(--space-xxxxl);
+}

@@ -1,0 +1,34 @@
+// ==== event content block
+// ==============================
+
+.event {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.event__preview {
+    display: flex;
+    justify-content: center;
+}
+
+.event__content {
+    padding-bottom: 0;
+    margin-bottom: auto;
+}
+
+.event__title {
+    margin-top: var(--space-xxl);
+}
+
+.event__description {
+    margin-top: var(--space-s);
+}
+
+.event__speaker {
+    margin-right: var(--space-xs);
+}
+
+.event__footer {
+    display: flex;
+}

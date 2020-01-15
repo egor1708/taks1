@@ -1,0 +1,15 @@
+// ==== payment content block
+// ==============================
+
+.payment .payment__header,
+.payment .payment__content {
+    border-bottom: 3px solid var(--backgroud-border);
+}
+
+.payment .payment__content .form__item:last-child {
+    margin-bottom: 0;
+}
+
+.payment__footer .button {
+    margin-left: auto;
+}

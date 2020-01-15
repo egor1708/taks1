@@ -1,0 +1,25 @@
+// ==== header content block
+// ==============================
+
+.header__content {
+    padding: var(--space-xxxl) var(--gap);
+    display: flex;
+    background-color: var(--backgroud-default);
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__logo {
+    width: 179px;
+    height: 34px;
+    background-color: var(--text-primary);
+    margin-right: auto;
+}
+
+@media (min-width: $breakpoint-mobile) {
+    .header__content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

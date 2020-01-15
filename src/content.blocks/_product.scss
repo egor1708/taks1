@@ -1,0 +1,17 @@
+// ==== product content block
+// ==============================
+
+.product {
+    min-height: 300px;
+    border: 3px solid var(--backgroud-border);
+    display: flex;
+    flex-direction: column;
+}
+
+.product__image .image {
+    height: 160px;
+}
+
+.product__title {
+    margin-bottom: var(--space-xxxl);
+}
