@@ -1,0 +1,32 @@
+/* ==== common blocks ==== */
+
+@import 'common.blocks/avatar';
+@import 'common.blocks/brand-logo';
+@import 'common.blocks/button';
+@import 'common.blocks/card';
+@import 'common.blocks/e-accordion';
+@import 'common.blocks/form';
+@import 'common.blocks/grid';
+@import 'common.blocks/icon-plus';
+@import 'common.blocks/image';
+@import 'common.blocks/informer';
+@import 'common.blocks/input';
+@import 'common.blocks/layout';
+@import 'common.blocks/list';
+@import 'common.blocks/placeholder';
+@import 'common.blocks/section';
+@import 'common.blocks/text';
+@import 'common.blocks/theme';
+
+/* ==== content blocks ==== */
+
+@import 'content.blocks/warning';
+@import 'content.blocks/product';
+@import 'content.blocks/payment';
+@import 'content.blocks/onoffswitch';
+@import 'content.blocks/history';
+@import 'content.blocks/header';
+@import 'content.blocks/footer';
+@import 'content.blocks/event';
+@import 'content.blocks/e-accordion';
+@import 'content.blocks/cover';
